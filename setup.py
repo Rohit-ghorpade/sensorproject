@@ -2,8 +2,6 @@ from setuptools import find_packages,setup
 # setup tools is basically is a pkg that provide tools 
 # for pkging python project
 from typing import List
-
-
 HYPEN_E_DOT = '-e.'
 
 def get_requirements(file_path:str)->List[str]:
